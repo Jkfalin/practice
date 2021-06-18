@@ -5,11 +5,25 @@
 </head>
 <body>
 	<form action="https://formspree.io/f/xnqlvogw" method="post">
-		<p>Email: <input type="email" name="text" size="25" maxlength="35"></p>
-		<p>Subject: <input type="text" name="Subject" size="25" maxlength="35"></p>
-		<p>Message:   <textarea name="comments" cols="20" rows="4">What do u have ta say?</textarea></p>
+		<label for="text">Email:</label>
+		<input type="email" name="text" size="25" maxlength="35" required="required">
+
+		<br>
+
+		<label for="subject">Subject:</label>
+		<input type="text" name="subject" size="25" maxlength="35" required="required">
+
+		<br>
+
+		<label for="comments">Message:</label>
+		<textarea name="comments" cols="20" rows="4" placeholder="What do you have to say?" required="required"></textarea>
+
 		<input type="submit" name="subscribe" value="Submit">
+
 		<p>Poll(Optional):Is Jakob the coolest person ever?</p>
-		<p>Yes<input type="radio" name="answer" value="Yes" checked="checked"></p>
+		<p>
+		<input type="radio" name="answer" value="Yes" checked="checked">
+		Yes:
+		</p>
 </body>
-</html>
+</html> 
