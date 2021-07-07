@@ -1,5 +1,5 @@
 p, ol, ul,form  {
-	font-family: cursive
+	font-family: cursive;
 
 }
 ul, ol, p, form {
@@ -13,3 +13,13 @@ body {
 	background-size: cover;
 
 }
+a {
+	color: white;
+}
+a:hover{
+	color: red;
+}
+a:visited {
+	color: white;
+}
+
