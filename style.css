@@ -1,0 +1,15 @@
+p, ol, ul,form  {
+	font-family: cursive
+
+}
+ul, ol, p, form {
+	color: white
+}
+h1, h2, h3, h4, h5, h6 {
+	color: white
+}
+body {
+	background-image: url(./Pictures/earth.jpg);
+	background-size: cover;
+
+}
