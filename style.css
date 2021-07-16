@@ -1,13 +1,98 @@
-p, ol, ul,form  {
+img.image {
+	border-radius: 25px;
+	display: inline;
+	width: 300px;
+	border: 4px groove black;
+	padding: 10px;
+	margin: 100px;
+}
+
+h2.portfolio {
+	color: black
+
+	
+
+}
+
+#title {
+	width: 300px;
+	margin: 10px auto 25px auto
+
+}
+
+body.portfolio {
+	background-image: none;
+	border: 5px groove;
+
+
+	}
+
+#metagross {
+  background: repeating-linear-gradient(#ff00ff,#800080 49.9%, #808080 50.1%, #c0c0c0 100%);
+}
+
+#electivire {
+	background: linear-gradient(#ffff00, #ffd700)
+}
+
+#crawdaunt {
+	background: repeating-linear-gradient(#000080, #0000ff 49.9%, #000000 50.1%, #2f4f4f 100%)
+}
+
+#dustox {
+	background: repeating-linear-gradient(#808000,#006400 49.9%, #8b008b 50.1%, #4b0082 100%)
+}
+
+#chesnaught {
+	background: repeating-linear-gradient(#32cd32, #00ff00 49.9%, #d2691e 50.1%, #8b4513 100%)
+}
+
+#turtunator {
+	background: repeating-linear-gradient(#ff4500, #ff0000 49.9%, #00ffff 50.1%, #008080 100%)
+}
+
+
+
+ul.links {
+
+	color: black;
+	width: 475px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	text-align: left;
+	align-items: center;
+}
+
+
+a.portfoliolink {
+	color: black
+
+}
+a.portfoliolink:visited {
+	color: black
+}
+a.portfoliolink:hover {
+	color: red
+}
+ 
+
+
+li {
+	display: inline;
+	margin: 0px 3px;
+}
+
+
+p, ol, ul, form, h2  {
 	font-family: cursive;
 
 }
-ul, ol, p, form {
+ul, ol, p, form, h1, h3, h4, h5, h6 {
 	color: white
 }
-h1, h2, h3, h4, h5, h6 {
-	color: white
-}
+
 body {
 	background-image: url(./Pictures/earth.jpg);
 	background-size: cover;
@@ -16,10 +101,15 @@ body {
 a {
 	color: white;
 }
-a:hover{
+a:hover { 
 	color: red;
 }
 a:visited {
 	color: white;
 }
+
+
+
+
+
 
