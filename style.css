@@ -79,7 +79,7 @@ a.portfoliolink:hover {
  
 
 
-li {
+.links li {
 	display: inline;
 	margin: 0px 3px;
 }
@@ -103,9 +103,6 @@ a {
 }
 a:hover { 
 	color: red;
-}
-a:visited {
-	color: white;
 }
 
 
