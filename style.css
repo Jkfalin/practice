@@ -82,6 +82,13 @@ a.portfoliolink:hover {
 	margin: 0px 3px;
 }
 
+
+div.container{
+	text-align: center;
+	margin: 0px auto;
+}
+
+
 p.black {
 	color: black;
 
