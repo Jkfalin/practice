@@ -4,7 +4,6 @@ img.image {
 	width: 300px;
 	border: 4px groove black;
 	padding: 10px;
-	margin: 100px;
 }
 
 h2.portfolio {
@@ -15,16 +14,16 @@ h2.portfolio {
 }
 
 #title {
-	width: 300px;
-	margin: 10px auto 25px auto
+	width: 350px;
+	margin: 10px auto 30px auto;
+	text-align:  center;
+
 
 }
 
 body.portfolio {
 	background-image: none;
-	border: 5px groove;
-
-
+	border: 5px groove 
 	}
 
 #metagross {
@@ -54,9 +53,8 @@ body.portfolio {
 
 
 ul.links {
-
 	color: black;
-	width: 475px;
+	width: 280px;
 	padding: 15px;
 	margin: 0px auto 0px auto;
 	border-top: 2px solid black;
@@ -82,6 +80,19 @@ a.portfoliolink:hover {
 .links li {
 	display: inline;
 	margin: 0px 3px;
+}
+
+p.black {
+	color: black;
+
+}
+
+div.pokemonbox {
+	width: 200;
+	height: 200;
+	text-align: center;
+	display: inline-block;
+	margin: 50px;
 }
 
 
