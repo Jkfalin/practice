@@ -1,56 +1,22 @@
-img.image {
-	border-radius: 25px;
-	display: inline;
-	width: 300px;
-	border: 4px groove black;
-	padding: 10px;
-}
-
-h2.portfolio {
-	color: black
-
-	
-
-}
-
-#title {
-	width: 350px;
-	margin: 10px auto 30px auto;
-	text-align:  center;
-
-
-}
-
-body.portfolio {
-	background-image: none;
-	border: 5px groove 
-	}
-
-#metagross {
-  background: repeating-linear-gradient(#ff00ff,#800080 49.9%, #808080 50.1%, #c0c0c0 100%);
-}
-
-#electivire {
-	background: linear-gradient(#ffff00, #ffd700)
-}
-
-#crawdaunt {
-	background: repeating-linear-gradient(#000080, #0000ff 49.9%, #000000 50.1%, #2f4f4f 100%)
-}
-
-#dustox {
-	background: repeating-linear-gradient(#808000,#006400 49.9%, #8b008b 50.1%, #4b0082 100%)
-}
-
-#chesnaught {
-	background: repeating-linear-gradient(#32cd32, #00ff00 49.9%, #d2691e 50.1%, #8b4513 100%)
-}
-
-#turtunator {
-	background: repeating-linear-gradient(#ff4500, #ff0000 49.9%, #00ffff 50.1%, #008080 100%)
+/* all web pages rules */
+body {
+	background-image: url(./Pictures/earth.jpg);
+	background-size: cover;
+	font-family: cursive;
+	color: white
 }
 
 
+/* Universal links */
+a {
+	color: white;
+}
+
+a:hover { 
+	color: red;
+}
+
+/* Portfolio Page css */
 
 ul.links {
 	color: black;
@@ -63,35 +29,77 @@ ul.links {
 	align-items: center;
 }
 
+img.image {
+	border-radius: 25px;
+	display: inline;
+	width: 300px;
+	border: 4px groove black;
+	padding: 10px;
+}
 
+h2.portfolio {
+	color: black
+}
+
+#title {
+	width: 350px;
+	margin: 10px auto 30px auto;
+	text-align:  center;
+}
+
+body.portfolio {
+	background-image: none;
+	border: 5px groove 
+}
+/* Pokemon Gradients */
+#metagross {
+  background: repeating-linear-gradient(#ff00ff,#800080 49.9%, #808080 50.1%, #c0c0c0 100%);
+}
+
+#electivire {
+	background: linear-gradient(#ffff00, #ffd700);
+}
+
+#crawdaunt {
+	background: repeating-linear-gradient(#000080, #0000ff 49.9%, #000000 50.1%, #2f4f4f 100%);
+}
+
+#dustox {
+	background: repeating-linear-gradient(#808000,#006400 49.9%, #8b008b 50.1%, #4b0082 100%);
+}
+
+#chesnaught {
+	background: repeating-linear-gradient(#32cd32, #00ff00 49.9%, #d2691e 50.1%, #8b4513 100%);
+}
+
+#turtunator {
+	background: repeating-linear-gradient(#ff4500, #ff0000 49.9%, #00ffff 50.1%, #008080 100%);
+}
+/* porfolio links */
 a.portfoliolink {
 	color: black
-
 }
+
 a.portfoliolink:visited {
 	color: black
 }
+
 a.portfoliolink:hover {
 	color: red
 }
  
-
-
 .links li {
 	display: inline;
 	margin: 0px 3px;
 }
-
 
 div.container{
 	text-align: center;
 	margin: 0px auto;
 }
 
-
-p.black {
+.black {
 	color: black;
-
 }
 
 div.pokemonbox {
@@ -103,24 +111,52 @@ div.pokemonbox {
 }
 
 
-p, ol, ul, form, h2  {
+body.howto {
+	width: 960px;
+	margin: 0px auto;
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	background: url(./Pictures/backgroundhowto.jpg) no-repeat scroll center top;
+	background-size: cover; 
+	border: 5px solid black;
+}
+
+.stepboxes {
+	overflow: auto;
+	margin-bottom: 0 auto
+	background-color: lightgray;
+	padding: 10px;
+	margin: 10px;
+
+}
+
+.step1, .step2, .step3, .step4 {
+	font-family: sans-serif;
+	background-color: white;
+	width: 900px;
+	float: left;
+	margin: 10px;
+}
+
+.step1 {
+	text-align: center;
+	background-color: white
+}
+
+.step4 {
+	background-color: ;
+}
+
+ul.movelist * {
+	list-style-type: circle;
 	font-family: cursive;
 
 }
-ul, ol, p, form, h1, h3, h4, h5, h6 {
-	color: white
-}
 
-body {
-	background-image: url(./Pictures/earth.jpg);
-	background-size: cover;
-
-}
-a {
-	color: white;
-}
-a:hover { 
-	color: red;
+div.moves {
+	width: 150px;
+	margin: 0px auto;
 }
 
 
