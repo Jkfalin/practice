@@ -1,9 +1,13 @@
 /* all web pages rules */
+
+
 body {
+
 	background-image: url(./Pictures/earth.jpg);
 	background-size: cover;
 	font-family: cursive;
 	color: white
+
 }
 
 
@@ -120,15 +124,21 @@ body.howto {
 	background: url(./Pictures/backgroundhowto.jpg) no-repeat scroll center top;
 	background-size: cover; 
 	border: 5px solid black;
+	
+
 }
+
+div.mainarea {
+	background-color:   black;
+
+}
+
 
 .stepboxes {
 	overflow: auto;
 	margin-bottom: 0 auto
 	background-color: lightgray;
 	padding: 10px;
-	margin: 10px;
-
 }
 
 .step1, .step2, .step3, .step4 {
@@ -151,7 +161,6 @@ body.howto {
 ul.movelist * {
 	list-style-type: circle;
 	font-family: cursive;
-
 }
 
 div.moves {
@@ -159,6 +168,22 @@ div.moves {
 	margin: 0px auto;
 }
 
+.white {
+	color: white;
+}
+
+.responsive {
+	text-align: center;
+}
+
+.wrapper {
+	text-align: center;
+	color: white;
+	border: 4px solid red;
+	width: 960px;
+	background-color: black;
+	margin: 0px, auto;
+}
 
 
 
